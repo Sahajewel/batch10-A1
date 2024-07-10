@@ -3,4 +3,245 @@
     margin: 0;
     padding: 0;
     font-family: "Azeret Mono";
+    box-sizing: border-box;
 }
+.common-style{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*Banner section*/
+
+#banner{
+    max-width: 1440px;
+    background-image: url(/assets/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+.banner-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-div img{
+    padding-top: 26px;
+    padding-bottom: 32px;
+}
+.banner-div h2{
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.banner-div p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.btn{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background: rgb(13, 19, 33);
+    border-radius: 8px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    padding: 21px 24px;
+    margin-bottom: 44px;
+}
+
+/*  why-web-development section*/
+#why-web-development{
+    background-color: #FAFAFB;
+    margin-top: 55px;
+}
+.why-web-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 97px;
+}
+.why-web-div h2{
+    font-size: 32px;
+    color: rgb(13, 19, 33);
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 24px;
+}
+.web-description{
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    font-weight: 400;
+    line-height: 26px;
+     text-align: center;
+     margin-bottom: 48px;
+     padding-left: 80px;
+     padding-right: 80px;
+}
+.why-web-div1{
+    display: flex;
+    padding: 48px;
+    background-color: #fff;
+}
+
+.why-web-div1-content{
+    width: 50%;
+   
+}
+
+.why-web-div1-img{
+    width: 50%;
+    text-align: right;
+}
+.why-web-div1-content h3{
+    font-size: 24px;
+    color: rgba(13, 19, 33, 0.7);
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.why-web-div1-content p{
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.why-web-div1 button{
+    font-size: 20px;
+    color: rgb(13, 19, 33);
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px;
+    background-color: #fff;
+}
+.why-web-div2{
+    
+        display: flex;
+        padding: 48px;
+        background-color: #fff;
+}
+
+.why-web-div2-img{
+    width: 30%;
+}
+.why-web-div2-content{
+    width: 70%;
+    text-align: left;
+}
+.why-web-div2-content h3{
+    font-size: 24px;
+    color: rgba(13, 19, 33, 0.7);
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.why-web-div2-content p{
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-bottom: 32px;
+}
+.why-web-div2 button{
+    font-size: 20px;
+    color: rgb(13, 19, 33);
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px;
+    background-color: #fff;
+}
+
+.why-web-div3{
+    display: flex;
+    padding: 48px;
+    background-color: #fff;
+}
+
+.why-web-div3-content{
+    width: 50%;
+   
+}
+
+.why-web-div3-img{
+    width: 50%;
+    text-align: right;
+}
+.why-web-div3-content h3{
+    font-size: 24px;
+    color: rgba(13, 19, 33, 0.7);
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.why-web-div3-content p{
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.why-web-div3 button{
+    font-size: 20px;
+    color: rgb(13, 19, 33);
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px;
+    background-color: #fff;
+}
+
+/* My Inspiration section*/
+#inspiration{
+    margin-top: 90px;
+}
+.my-inspiration h2{
+    font-size: 32px;
+    color: rgb(13, 19, 33);
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.my-inspiration p{
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 48px;
+}
+.my-hero{
+    width: 1134px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
