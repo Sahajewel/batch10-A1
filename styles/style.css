@@ -245,3 +245,194 @@
     padding: 32px;
 }
 
+/* current section*/
+#current{
+    margin-top: 151px;
+}
+.current-target h2{
+    font-size: 32px;
+    color: rgb(13, 19, 33);
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.current-desc{
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-left: 144px;
+    margin-right: 144px;
+    margin-bottom: 48px;
+}
+.html-css-js{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.html{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+    width: 30%;
+}
+.html h3{
+    font-size: 24px;
+    color: rgb(13, 19, 33);
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+    margin-top: 24 px;
+    margin-bottom: 8px;
+}
+.html p{
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.html a{
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    text-decoration-line: underline;
+}
+.css{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+    width: 30%;
+}
+.css h3{
+    font-size: 24px;
+    color: rgb(13, 19, 33);
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+    margin-top: 24 px;
+    margin-bottom: 8px;
+}
+.css p{
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.css a{
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    text-decoration-line: underline;
+}
+.js{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+    width: 30%;
+    
+}
+.js h3{
+    font-size: 24px;
+    color: rgb(13, 19, 33);
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+    margin-top: 24 px;
+    margin-bottom: 8px;
+}
+.js p{
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-bottom: 73px;
+}
+.js a{
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+/* support section*/
+#support{
+    background-image: url(/assets/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    border-radius: 16px;
+   
+}
+.need-support{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 64px 48px;
+    
+    
+}
+.need-support h3{
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.need-support p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-bottom: 38px;
+}
+.support-btn{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.input{
+    width: 50%;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    outline: 0;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: rgb(255, 255, 255);
+}
+.button{
+    width: 10%;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+
